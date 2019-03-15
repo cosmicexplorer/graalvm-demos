@@ -1,8 +1,21 @@
 [
-   {
-     "name" : "scala.tools.nsc.reporters.ConsoleReporter",
-      "methods" : [
-        { "name" : "<init>", "parameterTypes" : ["scala.tools.nsc.Settings"] }
-      ]
-   }
+  {
+    "name": "scala.tools.nsc.reporters.ConsoleReporter",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "scala.tools.nsc.Settings"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sbt.internal.io.MacJNA$TimeBuf",
+    "fields": [
+      { "name": "size" },
+      { "name": "tv_sec" },
+      { "name": "tv_nsec" }
+    ]
+  }
 ]
