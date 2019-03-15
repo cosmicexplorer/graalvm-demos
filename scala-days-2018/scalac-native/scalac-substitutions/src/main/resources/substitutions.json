@@ -8,5 +8,19 @@
         "substitute": true
       }
     ]
+  },
+  {
+    "annotatedClass": "scala.tools.nsc.substitutions.Target_sbt_io_IO$",
+    "originalClass": "sbt.io.IO$",
+    "methods": [
+      {
+        "annotatedName": "getModifiedTimeOrZero",
+        "substitute": true
+      },
+      {
+        "annotatedName": "setModifiedTimeOrFalse",
+        "substitute": true
+      }
+    ]
   }
 ]
